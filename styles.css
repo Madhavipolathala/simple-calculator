@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 500px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+.tit {
+    color: #333;
+    text-align: center;
+    margin-top:20px;
+}
+
+.display {
+    width: 90%;
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 18px;
+    color:black;
+    font-size: 20px;
+    text-align: right;
+    border-style: none;
+}
+
+#val {
+    width: 70px;
+    height: 40px;
+    margin: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+.operator{
+    color:orange;
+}
+#val:hover {
+    background-color:rgb(73, 228, 73);
+}
+
+
+
+
+

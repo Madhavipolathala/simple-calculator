@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="tit">Simple calculator</h1>
+<form>
+    <div class="container">
+
+        <div>
+            <input type="text" type=display class="display">
+        </div>
+       
+        <div>
+           <input id="val" type="button" value="/" onclick="setDisplayValue(value)">
+           <input id="val" type="button" value="*" onclick="setDisplayValue(value)">
+           <input id="val" type="button" value="+" onclick="setDisplayValue(value)">
+           <input id="val" type="button" value="-" onclick="setDisplayValue(value)">
+        </div>
+        <div>
+            <input id="val" type="button" value="7" onclick="setDisplayValue(value)">
+            <input id="val" type="button" value="8" onclick="setDisplayValue(value)">
+            <input id="val" type="button" value="9" onclick="setDisplayValue(value)">
+            <input id="val" type="button" value="." onclick="setDisplayValue(value)">
+        </div>
+        <div>
+            <input id="val" type="button" value="4" onclick="setDisplayValue(value)">
+            <input id="val" type="button" value="5" onclick="setDisplayValue(value)">
+            <input id="val" type="button" value="6" onclick="setDisplayValue(value)">
+            <input id="val" type="button" value="C" onclick="clearDisplay()">
+        </div>
+        <div>
+            <input id="val" type="button" value="1" onclick="setDisplayValue(value)">
+            <input id="val" type="button" value="2" onclick="setDisplayValue(value)">
+            <input id="val" type="button" value="3" onclick="setDisplayValue(value)">
+            <input id="val" type="button" value="=" onclick="Evaluate()" >
+
+        </div>
+
+    </div>
+</form> 
+<script src="index.js" ></script>
+</body>
+
+</html>
